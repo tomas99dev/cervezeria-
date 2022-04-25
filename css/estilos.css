@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap&family=Roboto+Mono:ital,wght@1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Asap", sans-serif;
+
+}
+
+.fondo {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../imagenes/barril.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 91.7vh;
+  border-bottom: solid 3px black;
+  justify-content: center;
+  align-items: center;
+
+
+  text-align: center;
+
+}
+
+.contenedorPadre {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 4rem;
+  border-bottom: solid black 3px;
+  flex-wrap: wrap;
+
+}
+
+.logo {
+  width: 4rem;
+  display: flex;
+  justify-self: flex-start;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  text-decoration: none;
+  flex-wrap: wrap;
+  margin-bottom: 0 !important;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  font-weight: bold;
+}
+
+.entrada {
+  color: white;
+  text-shadow: 0 0 8px rgb(0, 0, 8);
+  font-size: large;
+  font-size: 22px;
+  flex-wrap: wrap;
+}
+
+.conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 91.7vh;
+}
+
+
+.boton1 {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 22px;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: transparent;
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+  margin-top: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.boton1:hover {
+  background-color: black;
+}
+
+/* Cervezas */
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+
+}
+
+.card {
+  background-color: #cdccc8;
+  border: solid 2px black;
+  border-radius: 10px;
+  height: 20%;
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 5px;
+  box-shadow: rgb(0, 0, 0) 5px 5px 5px 5px;
+
+}
+
+
+/* Nosotros */
+
+
+.nosotros {
+  min-height: 250px;
+  width: 800px;
+  background-color: #cdccc8;
+  box-shadow: rgb(0, 0, 0) 5px 5px 5px 5px;
+  border: solid 2px black;
+  border-radius: 10px;
+
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+
+.nosotros p {
+  padding: 0px 30px;
+  text-align: center;
+  font-size: large;
+  padding-top: 20px;
+}
+
+
+.formulario {
+  height: 40vh;
+  width: 120vh;
+  box-shadow: rgb(0, 0, 0) 5px 5px 5px 5px;
+  border: solid 2px black;
+  border-radius: 10px;
+  background-color: #cdccc8;
+  padding-top: 1%;
+}
+
+.formulario div {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+
+.fotos {
+
+
+  height: 65%;
+  width: 50%;
+  margin-bottom: 15vh;
+
+}
+
+.contenedorFotos {
+  background-color: #0000007d;
+  height: 91.7vh;
+  width: 100%;
+  
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
